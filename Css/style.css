@@ -1,0 +1,32 @@
+/* global */
+
+@import url('app.css');
+
+body {
+    font-family: 'Vazir', sans-serif;
+}
+
+/* header */
+
+.navbar-links {
+    display: flex;
+}
+
+.contact-link,
+.logo-text {
+    font-size: 20px;
+}
+
+.contact-link:hover {
+    color: #1a1a1a !important;
+    background-color: #FEB60A !important;
+}
+
+.nav-links:hover:not(.active-nav-links) {
+    color: #FEB60A !important;
+}
+
+.menu-burger-icon {
+    width: 25px;
+    height: 25px;
+}

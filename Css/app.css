@@ -1,7 +1,60 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('./Fonts/Vazir.woff2') format('woff2'),
+        url('./Fonts/Vazir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
-    --bg-black1: #0f0f0f;
+    --color-black1: #0f0f0f;
+    --color-black2: #1a1a1a;
+    --color-yellow1: #FEB60A;
+    --color-gray1: #727272;
+    --color-white1: #e9e9e9;
+}
+
+a:link,
+a:visited,
+a:active,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.color-white1 {
+    color: var(--color-white1) !important;
+}
+
+.color-black1 {
+    color: var(--color-black1) !important;
+}
+
+.color-black2 {
+    color: var(--color-black2) !important;
+}
+
+.color-yellow1 {
+    color: var(--color-yellow1) !important;
+}
+
+.color-gray1 {
+    color: var(--color-gray1) !important;
+}
+
+.bg-yellow1 {
+    background-color: var(--color-yellow1) !important;
 }
 
 .bg-black1 {
-    background-color: var(--bg-black1);
+    background-color: var(--color-black1) !important;
+}
+
+.bg-black2 {
+    background-color: var(--color-black2) !important;
+}
+
+.transition {
+    transition: all ease 0.3s;
 }
