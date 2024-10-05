@@ -1,7 +1,5 @@
 /* global */
 
-@import url('app.css');
-
 body {
     font-family: 'Vazir', sans-serif;
 }
@@ -29,4 +27,16 @@ body {
 .menu-burger-icon {
     width: 25px;
     height: 25px;
+}
+
+/* main */
+
+.profile-picture-icon {
+    border-radius: 5px 30px 5px 30px;
+}
+
+.marquee {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }

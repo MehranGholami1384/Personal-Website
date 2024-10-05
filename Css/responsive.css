@@ -2,6 +2,6 @@
     .navbar-links {
         position: absolute;
         display: none;
-        width: 100vh;
+        width: 100%;
     }
 }
