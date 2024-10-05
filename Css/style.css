@@ -17,11 +17,11 @@ body {
 
 .contact-link:hover {
     color: #1a1a1a !important;
-    background-color: #FEB60A !important;
+    background-color: #ffcc00 !important;
 }
 
 .nav-links:hover:not(.active-nav-links) {
-    color: #FEB60A !important;
+    color: #ffcc00 !important;
 }
 
 .menu-burger-icon {
