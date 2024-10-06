@@ -72,3 +72,8 @@ body {
 .lets-work-about-page {
     height: 233px;
 }
+
+.project-picture {
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
