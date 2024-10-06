@@ -30,7 +30,7 @@ This project not only serves as a personal website but also acts as a learning t
 
 1. **Clone the Repository** :
    ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
+   git clone https://github.com/MehranGholami1384/Personal-Website.git
 
 2. **Download through this link** :
      [Download the Project](https://github.com/MehranGholami1384/Personal-Website/archive/refs/heads/main.zip)
