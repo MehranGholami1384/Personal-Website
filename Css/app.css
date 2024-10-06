@@ -11,6 +11,7 @@
     --color-black2: #1a1a1a;
     --color-black3: #1e1e1e;
     --color-black4: #141414;
+    --color-black5: #292929;
     --color-yellow1: #FEB60A;
     --color-yellow2: #ffcc00;
     --color-gray1: #727272;
@@ -51,12 +52,20 @@ a:focus {
     color: var(--color-yellow2) !important;
 }
 
+.fill-color-yellow2 {
+    /* fill: var(--color-yellow2) !important; */
+}
+
 .color-gray1 {
     color: var(--color-gray1) !important;
 }
 
 .bg-yellow1 {
     background-color: var(--color-yellow1) !important;
+}
+
+.bg-gray1 {
+    background-color: var(--color-gray1) !important;
 }
 
 .bg-black1 {
@@ -71,10 +80,18 @@ a:focus {
     background-color: var(--color-black3) !important;
 }
 
+.bg-black5 {
+    background-color: var(--color-black5) !important;
+}
+
 .transition {
     transition: all ease 0.3s;
 }
 
 .bg-linear {
     background-image: linear-gradient(var(--linear-deg), var(--color-black3), var(--color-black4));
+}
+
+.resize-none {
+    resize: none !important;
 }

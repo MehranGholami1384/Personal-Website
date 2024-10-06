@@ -15,7 +15,8 @@ body {
     font-size: 20px;
 }
 
-.contact-link:hover {
+.contact-link:hover,
+.send-message-btn:hover {
     color: #1a1a1a !important;
     background-color: #ffcc00 !important;
 }
@@ -76,4 +77,21 @@ body {
 .project-picture {
     object-fit: cover;
     aspect-ratio: 1 / 1;
+}
+
+.textarea {
+    height: 200px;
+}
+
+input::placeholder,
+.textarea::placeholder {
+    color: #727272 !important;
+}
+
+.social-links:hover {
+    background-color: #ffcc00 !important;
+}
+
+.social-links:hover svg>* {
+    stroke: #1a1a1a !important;
 }
