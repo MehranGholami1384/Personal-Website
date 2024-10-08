@@ -36,6 +36,10 @@ body {
     border-radius: 5px 30px 5px 30px;
 }
 
+.profile-picture-icon-skills {
+    border-radius: 5px 5px 5px 30px;
+}
+
 .marquee {
     width: 100%;
     white-space: nowrap;
@@ -94,4 +98,10 @@ input::placeholder,
 
 .social-links:hover svg>* {
     stroke: #1a1a1a !important;
+}
+
+.progress-bar-percent {
+    margin-left: -1px !important;
+    width: 60px !important;
+    height: 50px !important;
 }

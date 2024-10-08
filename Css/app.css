@@ -64,6 +64,10 @@ a:focus {
     background-color: var(--color-yellow1) !important;
 }
 
+.bg-yellow2 {
+    background-color: var(--color-yellow2) !important;
+}
+
 .bg-gray1 {
     background-color: var(--color-gray1) !important;
 }
