@@ -92,6 +92,10 @@ a:focus {
     transition: all ease 0.3s;
 }
 
+.transition2 {
+    transition: all ease 0.5s;
+}
+
 .bg-linear {
     background-image: linear-gradient(var(--linear-deg), var(--color-black3), var(--color-black4));
 }

@@ -12,7 +12,7 @@
     <title>خدمات</title>
 </head>
 
-<body class="bg-black1">
+<body class="bg-black1 position-relative">
 
     <header class="pb-5">
         <nav
@@ -43,15 +43,34 @@
                     </g>
                 </svg>
             </div>
-            <div
-                class="navbar-links flex-column flex-md-row rounded-3 align-items-center justify-content-center gap-3 bg-black1 z-3 top-100 py-3 py-md-0">
-                <div><a href="./index.html" class="nav-links color-gray1 fw-bold transition">صفحه اصلی</a>
+            <div class="navbar-links d-none d-md-flex align-items-center justify-content-center gap-3">
+                <div><a href="./index.html" class="nav-links active-nav-links color-white1 fw-bold transition">صفحه
+                        اصلی</a>
                 </div>
-                <div><a href="./about.html" class="nav-links color-gray1 fw-bold transition">درباره
-                        من</a></div>
+                <div><a href="./about.html" class="nav-links color-gray1 fw-bold transition">درباره من</a></div>
                 <div><a href="./projects.html" class="nav-links color-gray1 fw-bold transition">پروژه‌ها</a></div>
-                <!-- <div><a href="#" class="nav-links color-gray1 fw-bold transition">سوابق کاری</a></div> -->
                 <div><a href="./contact.html" class="nav-links color-gray1 fw-bold transition">تماس با من</a></div>
+            </div>
+            <div class="overlay d-none position-fixed top-0 end-0 z-2 w-100 h-100 pointer-event transition2"></div>
+            <div
+                class="side-navbar col-8 col-sm-5 shadow-lg z-3 d-flex d-md-none flex-column align-items-start justify-content-start gap-4 position-absolute top-0 end-0 bg-linear p-5 transition2">
+                <div class="w-100 d-flex align-items-center justify-content-end close-side-navbar-btn">
+                    <svg class="pointer-event" width="25" height="25" viewbox="0 0 40 40">
+                        <path d="M 10,10 L 30,30 M 30,10 L 10,30" stroke="#f1f1f1" stroke-width="4" /></svg>
+                </div>
+                <div class="w-100"><a href="./index.html"
+                        class="nav-links active-nav-links color-white1 fw-bold transition">صفحه
+                        اصلی</a>
+                </div>
+                <div class="w-100"><a href="./about.html" class="nav-links color-gray1 fw-bold transition">درباره
+                        من</a>
+                </div>
+                <div class="w-100"><a href="./projects.html"
+                        class="nav-links color-gray1 fw-bold transition">پروژه‌ها</a></div>
+                <div class="w-100"><a href="./contact.html" class="nav-links color-gray1 fw-bold transition">تماس با
+                        من</a></div>
+                <a class="contact-link bg-black3 color-yellow2 p-2 fs-6 rounded-3 transition w-100 d-flex align-items-center justify-content-center"
+                    href="./Files/mehran-gholami-resume.pdf" target="_blank" download>دریافت رزومه</a>
             </div>
             <div class="d-none d-md-block">
                 <a class="contact-link bg-black2 color-yellow2 px-3 py-2 rounded-3 transition"
