@@ -99,3 +99,7 @@ a:focus {
 .resize-none {
     resize: none !important;
 }
+
+.line-height {
+    line-height: 30px !important;
+}
