@@ -108,3 +108,7 @@ a:focus {
 .line-height {
     line-height: 30px !important;
 }
+
+.pointer {
+    cursor: pointer !important;
+}
