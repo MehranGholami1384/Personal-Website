@@ -17,6 +17,7 @@
     --color-red1: #D50000;
     --color-gray1: #727272;
     --color-white1: #e9e9e9;
+    --color-green1: #22c55e;
     --linear-deg: 140deg;
 }
 
@@ -28,6 +29,10 @@ a:focus {
     text-decoration: none;
 }
 
+
+.color-green1 {
+    color: var(--color-green1) !important;
+}
 
 .color-white1 {
     color: var(--color-white1) !important;
