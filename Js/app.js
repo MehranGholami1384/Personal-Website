@@ -1,4 +1,10 @@
 $(document).ready(function () {
+    AOS.init({
+        duration: 1000,
+        offset: 200,
+        once: true
+    });
+
     function showSideNavbar() {
         $('.side-navbar').addClass('open-side-navbar')
         $('.overlay').addClass('active-overlay');
