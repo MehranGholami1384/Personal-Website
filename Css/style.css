@@ -24,7 +24,7 @@ body {
 .side-navbar {
     height: 110vh !important;
     margin-top: -24px !important;
-    right: -350px !important;
+    right: -100% !important;
 }
 
 .open-side-navbar {
