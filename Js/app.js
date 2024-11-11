@@ -26,4 +26,12 @@ $(document).ready(function () {
     $('.close-side-navbar-btn').click(function () {
         closeSideNavbar()
     })
+
+    $('.progress-bar').each(function () {
+        let progressWidth = $(this).data('width')
+
+        $(this).animate({
+            width: `${progressWidth}%`
+        }, 2000)
+    })
 });
