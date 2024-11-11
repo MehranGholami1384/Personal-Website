@@ -27,11 +27,26 @@ $(document).ready(function () {
         closeSideNavbar()
     })
 
-    $('.progress-bar').each(function () {
-        let progressWidth = $(this).data('width')
+    $('.progress').each(function () {
+        let $this = $(this)
+        let $progressBar = $this.find('.progress-bar')
+        let progressBarWidth = $progressBar.data('width')
 
-        $(this).animate({
-            width: `${progressWidth}%`
-        }, 2000)
+        $this.waypoint(
+            function () {
+                $progressBar.animate({
+                    width: `${progressBarWidth}%`
+                }, 2000)
+
+                this.destroy()
+            }, {
+                offset: '100%'
+            }
+        )
+    })
+
+    $('.progress-percent-counter').counterUp({
+        delay: 50,
+        time: 2200
     })
 });
